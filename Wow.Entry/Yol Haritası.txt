@@ -1,0 +1,36 @@
+﻿1-- tasarımı yap login ekranı,dünya seçimi,karakter seçimi
+2-- ilk ekran login ekranı oyun açıldığında otomatik müzik başlatma
+3-- classları oluştur
+4-- formlar arası geçişleri yap
+------------- Şimdiye kadar uyguladığım Paternler-------------
+5-- Singleton Patern Dwarf Priest için uyarladım(Kullanıldı)
+6-- Factory Patern Dwarf Warrior için uyarladım(Kullanıldı)
+7-- Builder Paterni Dwarf Hunter için uyarladım(Henüz Kullanılmadı)
+
+
+
+
+
+----------------------oyunun işleyiş şekli------------------------------
+oyun savaş ekranında son bulacak herolar bizim seçtiğimiz ve karşı rakip bilgisayarın bize random verdiği karakter olacak
+oyun butonlar aracılığı ile oynanacak 
+her hero sabit damage veremicek her saldırı butonuna basıldığında maksimum olarak belirtilmiş damageten yüksek vuramayacak-oyunun dinamikleşmesi için belirtilen aralıklarda şansa kritik damage hasarı oluşturulacak
+kritik vuruş şansı her heroya tanımlanacak (hasar % sini henüz düşünmedim)
+oyunu kazanmak biraz şans birazda taktilsel olarak(özel büyüler) gerçekleştirilebilir.
+
+
+
+
+
+
+---------------karakterlerin yetenekleri-------------------- (Değiştirilebilir)
+
+
+Warrior her saniye hp si %1 artacak (öldürmesi zor)
+
+mage büyüsel hasarı çok yüksek,sınırlı kullanım(Tehlikeli)
+
+priest kendine heal basabilecek kendi canının %50 si kadar,kullanım sınırsız(öldürmesi zor)
+
+hunter görünmez olabilecek düşman rakip kendi sırasında ona saldıramayacak ama hunter saldırabilecek,görünmezlik süresi ve kullanım sayısı sınırlı(suikastçi)
+
